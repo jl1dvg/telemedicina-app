@@ -106,7 +106,7 @@ class App extends React.Component<
 
   // connect to our socket.io server
   connect() {
-    this.socket = io.connect("https://backend-super-hero-call.herokuapp.com");
+    this.socket = io.connect("https://telemedicina-io-server.herokuapp.com");
     this.socket.on("on-connected", (heroes: any) => {
       console.log("heroes", heroes);
       this.setState({ heroes });
