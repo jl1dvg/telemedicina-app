@@ -30,7 +30,8 @@ body {
 }
 
 #picker {
-  position: fixed;
+  display: flex;
+  position: relative;
   z-index: 999;
   left: 0;
   right: 0;
